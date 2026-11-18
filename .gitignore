@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+bin/
+.DS_Store
+npm-debug.log*
+
+# Household records are local and may contain private inventory data.
+data/*.csv
+data/settings.txt
+data/*.tmp
+
+# Local agent instructions are not part of the application.
+AGENTS.md
+agent.md
